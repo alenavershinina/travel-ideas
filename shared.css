@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo {
+  font-family: "Pacifico";
+  font-size: 50px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(8, 129, 129);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+header li a {
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+footer {
+  background: linear-gradient(70deg, rgb(5, 76, 76), rgb(8, 129, 129));
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  margin: 0;
+}
+
+footer li {
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img {
+  width: 100%;
+  height: 100%;
+}
